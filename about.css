@@ -1,0 +1,344 @@
+/*Css for about us page*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+#aboutus-container {
+    position: static;
+}
+
+.heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.heading h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-size: 1.2em;
+    color: #999;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.about-us img {
+    width: 40%;
+    height: auto;
+    margin-right: 50px;
+}
+
+.about-us h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    color: #999;
+    line-height: 1.5em;
+    text-align: justify;
+    max-width: 500px;
+}
+
+.about-us-profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.Team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 30px;
+    text-align: center;
+}
+
+.Team-members img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.Team-members h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-button {
+    background: rgb(28, 77, 9);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-top: 50px;
+
+}
+
+.profile-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.portfolio-container {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.portfolio {
+    display: inline-block;
+    margin: 0 50px;
+    vertical-align: top;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.portfolio h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.portfolio p {
+    font-size: 1.2em
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3f51b5;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.header nav {
+    display: flex;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.header nav a:hover {
+    color: #3f51b5;
+    background-color: #fff;
+}
+
+.hero {
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 72px;
+    color: #fff;
+    text-shadow: 1px 1px #333;
+    margin: 0;
+}
+
+.about {
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.services {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services .service {
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.services .service:hover {
+    transform: translateY(-10px);
+    box-shadow: 2px 2px #333;
+}
+
+.services .service h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services .service p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.contact {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.profile-button {
+    background-color: #0c490e;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.profile-button:hover {
+    border: 3px solid black;
+}
+
+
+.contact form input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.contact form .form-group {
+    margin-bottom: 40px;
+}
+
+.contact form .form-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact form .form-group textarea {
+    resize: vertical;
+}
+
+.table {
+    margin: 1px auto;
+    width: 50%;
+}
+
+.portfolio p {
+    text-align: left;
+}
+
+.main {
+    margin: 60px 50px;
+
+}
+
+#portfolio-text p {
+
+    text-align: center;
+
+}
+
+#portfolio-text h2 {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.portfolio-container {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin: 10px 180px;
+}
+
+.portfolio-img img {
+    border-radius: 20px;
+    opacity: 90%;
+}
+
+/*Css for about us page ends*/

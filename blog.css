@@ -1,0 +1,165 @@
+/* css for Blogs */
+.banner {
+    min-height: 78vh;
+    background-image: url(./img/blog-hero.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    padding-top: 2rem;
+
+
+}
+
+.blog-hero-content {
+    text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    max-width: 30rem;
+
+
+}
+
+.blog-hero-content-title {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+
+
+}
+
+.blog-hero-content-title-paraghraph {
+    font-size: 1rem;
+    padding: 1rem 0;
+
+
+}
+
+.about-technology {
+    display: flex;
+    padding: 0px 30px 0px 30px;
+
+
+}
+
+.blog-tech-1 {
+    padding: 0px 25px 0px 25px;
+    width: 50%;
+
+
+}
+
+.tech-img2 {
+    width: 50%;
+    padding: 0px 25px 0px 25px;
+
+}
+
+.technology-title {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+
+}
+
+.positive-impact {
+    display: flex;
+    padding: 0px 30px 0px 30px;
+
+
+}
+
+.positive-impact-img {
+    height: 300px;
+    width: 547px;
+
+
+}
+
+.positive-impact1 {
+    padding: 0px 25px 0px 25px;
+    width: 50%;
+
+
+}
+
+.positive-impact2 {
+    padding: 0px 25px 0px 25px;
+    width: 50%;
+    flex: 50%;
+
+
+}
+
+#impact-title {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+
+
+}
+
+/* negative impact starts */
+/* negative impact title */
+#negative-impact-title {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+/* negative impact title ends */
+.negative-impact {
+    padding: 0px 30px 0px 30px;
+}
+
+.negative-impact-img1-div {
+    padding: 0px 15px 0px 25px;
+    width: 50%;
+}
+
+.negative-impact-img2 {
+    height: 200px;
+    width: 274px;
+}
+
+.negative-impact {
+    display: flex;
+}
+
+.negative-impact-text {
+    padding-left: 40px;
+}
+
+.impact-of-technology-title {
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.impact-technology-img {
+    height: 210px;
+    width: 284px;
+}
+
+.impact-of-technology-div {
+    justify-content: space-around;
+    display: flex;
+
+}
+
+
+.heading-blogs {
+    margin: 40px 0;
+    text-transform: uppercase;
+
+}
+
+.paragraphs {
+    text-align: center;
+    margin: 15px 20px 15px 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+
+/* blog page ends */

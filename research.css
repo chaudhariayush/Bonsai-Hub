@@ -1,0 +1,100 @@
+/* research page starts */
+
+.research-banner {
+    background-color: rgb(28, 77, 9);
+    padding: 20px 35px;
+    display: flex;
+}
+
+.research-img {
+    display: flex;
+    padding: 5px 40px;
+
+}
+
+.research-img1 {
+    width: 50%;
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+    height: 50%;
+    
+}
+
+
+
+.research-text {
+    padding: 0px 55px 0px 54px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.research-banner {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    text-align: center;
+}
+
+.research-banner img {
+    width: 80%;
+    max-width: 600px;
+}
+
+.research-title {
+    font-size: 3em;
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.research-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.research-img img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.research-img1,.research-img2 {
+    width: 45%;
+}
+
+.research-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 50px 0;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#research-box {
+    max-width: 60%;
+}
+
+.heading-blogs {
+    margin: 15px 0;
+    text-transform: uppercase;
+
+}
+
+.paragraphs {
+    text-align: center;
+    margin: 15px 20px 15px 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
